@@ -123,9 +123,9 @@ command='gnome-terminal'
 name='g term'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
-binding='<Shift><Alt>f'
+binding='<Alt>f'
 command='foot -F nvim'
-name='altfoot'
+name='foot nvim'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/foo-h]
 binding='<Alt>h'
