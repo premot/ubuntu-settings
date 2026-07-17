@@ -1,0 +1,314 @@
+[apps/update-manager]
+first-run=false
+launch-count=3
+launch-time=int64 1783855705
+show-details=true
+window-height=400
+window-width=593
+
+[com/ubuntu/update-notifier]
+regular-auto-launch-interval=7
+release-check-time=uint32 1783182093
+
+[org/gnome/control-center]
+last-panel='keyboard'
+window-state=(980, 640, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/input-sources]
+sources=[('xkb', 'us')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+color-scheme='prefer-dark'
+gtk-theme='Yaru-dark'
+icon-theme='Yaru'
+
+[org/gnome/desktop/notifications]
+application-children=['firefox-firefox', 'org-gnome-settings', 'kitty', 'org-gnome-nautilus']
+
+[org/gnome/desktop/notifications/application/firefox-firefox]
+application-id='firefox_firefox.desktop'
+
+[org/gnome/desktop/notifications/application/kitty]
+application-id='kitty.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
+
+[org/gnome/desktop/privacy]
+old-files-age=uint32 30
+recent-files-max-age=-1
+
+[org/gnome/desktop/screensaver]
+lock-enabled=false
+ubuntu-lock-on-suspend=false
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/gnome-system-monitor]
+show-dependencies=false
+show-whose-processes='user'
+window-width=1103
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=0
+columns-order=[6]
+sort-col=1
+sort-order=0
+
+[org/gnome/gnome-system-monitor/proctree]
+columns-order=[0, 1, 2, 3, 4, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+sort-col=8
+sort-order=0
+
+[org/gnome/mutter]
+edge-tiling=false
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='list-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+
+[org/gnome/nm-applet/eap/7948f1db-c042-4fe7-b943-d1a1ea1febad]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/nm-applet/eap/cac41fbe-bc18-3d87-bba7-af2af7f8ffab]
+ignore-ca-cert=false
+ignore-phase2-ca-cert=false
+
+[org/gnome/portal/filechooser/snap.firefox]
+last-folder-path='/media/asd/c35464d1-4e34-4241-a5f0-7cd5e9caaad4'
+
+[org/gnome/settings-daemon/plugins/media-keys]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/foo-h/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-9/']
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
+binding='<Alt>g'
+command='gnome-terminal'
+name='g term'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
+binding='<Shift><Alt>f'
+command='foot -F nvim'
+name='altfoot'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/foo-h]
+binding='<Alt>h'
+command='footclient -F htop'
+name='foot htop'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-1]
+binding='<Alt>1'
+command='gnome-terminal --profile=be6414ee-9e03-4012-ad40-0e78afd7621c'
+name='Deep Navy Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-2]
+binding='<Alt>2'
+command='gnome-terminal --profile=1176592f-46e7-4f84-a3ec-bb2a5ef7c14d'
+name='Harbor Teal Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-3]
+binding='<Alt>3'
+command='gnome-terminal --profile=2118bdf7-2f03-4e21-bf32-c55924117e7d'
+name='Pine Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-4]
+binding='<Alt>4'
+command='gnome-terminal --profile=bd50ad3a-75cf-41bd-abaf-f3353099a548'
+name='Moss Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-5]
+binding='<Alt>5'
+command='gnome-terminal --profile=94d869e3-5e3d-47e7-b73f-71deee311584'
+name='Umber Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-6]
+binding='<Alt>6'
+command='gnome-terminal --profile=4101aa5a-a2a6-4505-96a5-452f33ab0a92'
+name='Oxblood Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-7]
+binding='<Alt>7'
+command='gnome-terminal --profile=5f5dd616-92b0-46b0-b158-4c01b2ce083f'
+name='Mulberry Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-8]
+binding='<Alt>8'
+command='gnome-terminal --profile=0940d36f-eace-40e9-bb34-9867ccffb9aa'
+name='Indigo Terminal'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-9]
+binding='<Alt>9'
+command='gnome-terminal --profile=e6c6f0f2-baa7-40ba-ba80-354b9cb605c5'
+name='Slate Terminal'
+
+[org/gnome/settings-daemon/plugins/power]
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+disabled-extensions=['ubuntu-dock@ubuntu.com']
+favorite-apps=['firefox_firefox.desktop', 'org.gnome.Nautilus.desktop', 'snap-store_snap-store.desktop']
+last-selected-power-profile='power-saver'
+welcome-dialog-last-shown-version='46.0'
+
+[org/gnome/shell/extensions/dash-to-dock]
+hot-keys=false
+
+[org/gnome/shell/extensions/ding]
+check-x11wayland=true
+
+[org/gnome/shell/extensions/tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+
+[org/gnome/shell/keybindings]
+switch-to-application-1=@as []
+switch-to-application-2=@as []
+switch-to-application-3=@as []
+switch-to-application-4=@as []
+switch-to-application-5=@as []
+switch-to-application-6=@as []
+switch-to-application-7=@as []
+switch-to-application-8=@as []
+switch-to-application-9=@as []
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/terminal/legacy/profiles:]
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'be6414ee-9e03-4012-ad40-0e78afd7621c', '1176592f-46e7-4f84-a3ec-bb2a5ef7c14d', '2118bdf7-2f03-4e21-bf32-c55924117e7d', 'bd50ad3a-75cf-41bd-abaf-f3353099a548', '94d869e3-5e3d-47e7-b73f-71deee311584', '4101aa5a-a2a6-4505-96a5-452f33ab0a92', '5f5dd616-92b0-46b0-b158-4c01b2ce083f', '0940d36f-eace-40e9-bb34-9867ccffb9aa', 'e6c6f0f2-baa7-40ba-ba80-354b9cb605c5']
+
+[org/gnome/terminal/legacy/profiles:/:0940d36f-eace-40e9-bb34-9867ccffb9aa]
+background-color='#2d2949'
+cursor-background-color='#e7edf3'
+cursor-foreground-color='#171b22'
+foreground-color='#e7edf3'
+use-theme-colors=false
+visible-name='Indigo'
+
+[org/gnome/terminal/legacy/profiles:/:1176592f-46e7-4f84-a3ec-bb2a5ef7c14d]
+background-color='#123c42'
+cursor-background-color='#e7edf3'
+cursor-foreground-color='#171b22'
+foreground-color='#e7edf3'
+use-theme-colors=false
+visible-name='Harbor Teal'
+
+[org/gnome/terminal/legacy/profiles:/:2118bdf7-2f03-4e21-bf32-c55924117e7d]
+background-color='#173f30'
+cursor-background-color='#e7edf3'
+cursor-foreground-color='#171b22'
+foreground-color='#e7edf3'
+use-theme-colors=false
+visible-name='Pine'
+
+[org/gnome/terminal/legacy/profiles:/:4101aa5a-a2a6-4505-96a5-452f33ab0a92]
+background-color='#48242a'
+cursor-background-color='#e7edf3'
+cursor-foreground-color='#171b22'
+foreground-color='#e7edf3'
+use-theme-colors=false
+visible-name='Oxblood'
+
+[org/gnome/terminal/legacy/profiles:/:5f5dd616-92b0-46b0-b158-4c01b2ce083f]
+background-color='#402442'
+cursor-background-color='#e7edf3'
+cursor-foreground-color='#171b22'
+foreground-color='#e7edf3'
+use-theme-colors=false
+visible-name='Mulberry'
+
+[org/gnome/terminal/legacy/profiles:/:94d869e3-5e3d-47e7-b73f-71deee311584]
+background-color='#49311f'
+cursor-background-color='#e7edf3'
+cursor-foreground-color='#171b22'
+foreground-color='#e7edf3'
+use-theme-colors=false
+visible-name='Umber'
+
+[org/gnome/terminal/legacy/profiles:/:bd50ad3a-75cf-41bd-abaf-f3353099a548]
+background-color='#3c4120'
+cursor-background-color='#e7edf3'
+cursor-foreground-color='#171b22'
+foreground-color='#e7edf3'
+use-theme-colors=false
+visible-name='Moss'
+
+[org/gnome/terminal/legacy/profiles:/:be6414ee-9e03-4012-ad40-0e78afd7621c]
+background-color='#172a46'
+cursor-background-color='#e7edf3'
+cursor-foreground-color='#171b22'
+foreground-color='#e7edf3'
+use-theme-colors=false
+visible-name='Deep Navy'
+
+[org/gnome/terminal/legacy/profiles:/:e6c6f0f2-baa7-40ba-ba80-354b9cb605c5]
+background-color='#28383b'
+cursor-background-color='#e7edf3'
+cursor-foreground-color='#171b22'
+foreground-color='#e7edf3'
+use-theme-colors=false
+visible-name='Slate'
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+sidebar-width=140
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+view-type='list'
+window-size=(1177, 704)
+
+[org/gtk/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=160
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+window-position=(0, 32)
+window-size=(1203, 689)
