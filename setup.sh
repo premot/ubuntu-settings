@@ -22,3 +22,5 @@ AutomaticLogin=$USER
 EOF2
 sudo systemctl mask sleep.target suspend.target hibernate.target hybrid-sleep.target
 sudo systemctl enable --now ssh
+
+rm Documents/ Music/ Pictures/ Templates/ Videos/ -rf
