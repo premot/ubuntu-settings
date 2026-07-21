@@ -115,17 +115,27 @@ ignore-phase2-ca-cert=false
 last-folder-path='/media/asd/c35464d1-4e34-4241-a5f0-7cd5e9caaad4'
 
 [org/gnome/settings-daemon/plugins/media-keys]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/foo-h/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-9/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/foo-h/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-7/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-8/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/gnome-terminal-palette-9/']
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Alt>g'
-command='gnome-terminal'
+command='footclient'
 name='g term'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
 binding='<Alt>f'
-command='foot -F nvim'
+command='footclient -F nvim'
 name='foot nvim'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
+binding='<Alt>d'
+command='footclient -F bash "cd ~/nixos-prototype-config && bash"'
+name='foot home'
+
+[org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
+binding='<Alt>j'
+command='footclient -F fish'
+name='foot fish'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/foo-h]
 binding='<Alt>h'
