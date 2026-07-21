@@ -225,6 +225,10 @@ locations=@av []
 [org/gnome/terminal/legacy/profiles:]
 list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'be6414ee-9e03-4012-ad40-0e78afd7621c', '1176592f-46e7-4f84-a3ec-bb2a5ef7c14d', '2118bdf7-2f03-4e21-bf32-c55924117e7d', 'bd50ad3a-75cf-41bd-abaf-f3353099a548', '94d869e3-5e3d-47e7-b73f-71deee311584', '4101aa5a-a2a6-4505-96a5-452f33ab0a92', '5f5dd616-92b0-46b0-b158-4c01b2ce083f', '0940d36f-eace-40e9-bb34-9867ccffb9aa', 'e6c6f0f2-baa7-40ba-ba80-354b9cb605c5']
 
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+default-size-columns=120
+default-size-rows=40
+
 [org/gnome/terminal/legacy/profiles:/:0940d36f-eace-40e9-bb34-9867ccffb9aa]
 background-color='#2d2949'
 cursor-background-color='#e7edf3'
@@ -232,6 +236,8 @@ cursor-foreground-color='#171b22'
 foreground-color='#e7edf3'
 use-theme-colors=false
 visible-name='Indigo'
+default-size-columns=120
+default-size-rows=40
 
 [org/gnome/terminal/legacy/profiles:/:1176592f-46e7-4f84-a3ec-bb2a5ef7c14d]
 background-color='#123c42'
@@ -240,6 +246,8 @@ cursor-foreground-color='#171b22'
 foreground-color='#e7edf3'
 use-theme-colors=false
 visible-name='Harbor Teal'
+default-size-columns=120
+default-size-rows=40
 
 [org/gnome/terminal/legacy/profiles:/:2118bdf7-2f03-4e21-bf32-c55924117e7d]
 background-color='#173f30'
@@ -248,6 +256,8 @@ cursor-foreground-color='#171b22'
 foreground-color='#e7edf3'
 use-theme-colors=false
 visible-name='Pine'
+default-size-columns=120
+default-size-rows=40
 
 [org/gnome/terminal/legacy/profiles:/:4101aa5a-a2a6-4505-96a5-452f33ab0a92]
 background-color='#48242a'
@@ -256,6 +266,8 @@ cursor-foreground-color='#171b22'
 foreground-color='#e7edf3'
 use-theme-colors=false
 visible-name='Oxblood'
+default-size-columns=120
+default-size-rows=40
 
 [org/gnome/terminal/legacy/profiles:/:5f5dd616-92b0-46b0-b158-4c01b2ce083f]
 background-color='#402442'
@@ -264,6 +276,8 @@ cursor-foreground-color='#171b22'
 foreground-color='#e7edf3'
 use-theme-colors=false
 visible-name='Mulberry'
+default-size-columns=120
+default-size-rows=40
 
 [org/gnome/terminal/legacy/profiles:/:94d869e3-5e3d-47e7-b73f-71deee311584]
 background-color='#49311f'
@@ -272,6 +286,8 @@ cursor-foreground-color='#171b22'
 foreground-color='#e7edf3'
 use-theme-colors=false
 visible-name='Umber'
+default-size-columns=120
+default-size-rows=40
 
 [org/gnome/terminal/legacy/profiles:/:bd50ad3a-75cf-41bd-abaf-f3353099a548]
 background-color='#3c4120'
@@ -280,6 +296,8 @@ cursor-foreground-color='#171b22'
 foreground-color='#e7edf3'
 use-theme-colors=false
 visible-name='Moss'
+default-size-columns=120
+default-size-rows=40
 
 [org/gnome/terminal/legacy/profiles:/:be6414ee-9e03-4012-ad40-0e78afd7621c]
 background-color='#172a46'
@@ -288,6 +306,8 @@ cursor-foreground-color='#171b22'
 foreground-color='#e7edf3'
 use-theme-colors=false
 visible-name='Deep Navy'
+default-size-columns=120
+default-size-rows=40
 
 [org/gnome/terminal/legacy/profiles:/:e6c6f0f2-baa7-40ba-ba80-354b9cb605c5]
 background-color='#28383b'
@@ -296,6 +316,8 @@ cursor-foreground-color='#171b22'
 foreground-color='#e7edf3'
 use-theme-colors=false
 visible-name='Slate'
+default-size-columns=120
+default-size-rows=40
 
 [org/gtk/gtk4/settings/file-chooser]
 date-format='regular'
