@@ -89,11 +89,11 @@ sort-col=8
 sort-order=0
 
 [org/gnome/mutter]
-edge-tiling=false
+edge-tiling=true
 
 [org/gnome/mutter/keybindings]
-toggle-tiled-left=@as []
-toggle-tiled-right=@as []
+toggle-tiled-left=@as ['<Super>Left']
+toggle-tiled-right=@as ['<Super>Right']
 
 [org/gnome/nautilus/preferences]
 default-folder-viewer='list-view'
