@@ -119,7 +119,7 @@ custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybin
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0]
 binding='<Alt>g'
-command='footclient'
+command='footclient -F'
 name='g term'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1]
