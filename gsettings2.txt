@@ -129,7 +129,7 @@ name='foot nvim'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2]
 binding='<Alt>d'
-command='footclient -F bash "cd ~/nixos-prototype-config && bash"'
+command='footclient -F bash -c "cd $(zoxide query --interactive) && bash"'
 name='foot home'
 
 [org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3]
